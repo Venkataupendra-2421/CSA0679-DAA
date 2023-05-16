@@ -3,7 +3,7 @@
 int main()
 {
 	int i,j,palindrome=1;
-	char str[100],revstr[100];
+	char str[100];
 	printf("Enter a string: ");
 	scanf("%s",str);
 	
@@ -20,11 +20,6 @@ int main()
 	  printf("%s is a palindrome ",str);
 	else
 	printf("%s is not  a palindrome ",str);
-	for(i=0;i<=j;i++){
-		revstr[i] = str[j-i];
-    }
-    revstr[i]='\0';
-    printf("\n The reverse of %s is %s",str,revstr);
-    
-    return 0;
+	
+   return 0;
 }
